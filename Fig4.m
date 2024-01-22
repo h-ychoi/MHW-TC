@@ -1,7 +1,7 @@
 %%
 clear all; 
-load ('D:\2023_article_fig\ver_jun\review\qsat_qn_wnp_v2.mat','v1','v2');
- load('D:\2023_article_fig\ver_jun\review\10m_wind_wnp.mat','vv1','vv2');
+load ('D:\2023_article_fig\ver_jun\review\qsat_qn_v2.mat','v1','v2');
+ load('D:\2023_article_fig\ver_jun\review\10m_wind.mat','vv1','vv2');
 close all; clc;
 fig = figure;
 set(fig,'Position', [80, 50, 1249/1.0, 850/1.0]);
